@@ -1,0 +1,246 @@
+body{
+    font-family: 'Rosario', sans-serif;
+}
+header{
+    background: url(./img/Photography_app_01.jpg) no-repeat;
+    background-size: cover;
+    padding-bottom: 21px;
+    padding-top: 90px;
+}
+header .navbar .navbar-nav .nav-item .nav-link{
+    margin-left: 65px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+}
+header .navbar .navbar-nav .nav-item .nav-icon{
+    margin-left: 65px;
+}
+header .navbar .navbar-nav .nav-item .nav-link::after,
+header .navbar .navbar-nav .nav-item .nav-link.active{
+content: "";
+display: block;
+width: 100%;
+height: 4px;
+background: #16a085;
+transition: 0.5s;
+opacity: 0;
+}
+header .navbar .navbar-nav .nav-item .nav-link:hover::after{
+opacity: 1;
+}
+
+header .title .title_h1{
+    font-size: 36px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 757px;
+    margin: auto;
+    margin-top: 292px;
+}
+
+header .title .title_img{
+    display: flex;
+ justify-content: space-between;
+font-size: 16px;
+color: #fff;
+line-height: 13px;
+letter-spacing: 7px;
+margin-top: 37px;
+}
+header .title .title_img img{
+    height: 2px;
+    width: 321px;
+}
+header .title button{
+    color: #fff;
+    line-height: 12px;
+    font-size: 16px;
+    background:transparent;
+     margin: auto;
+  border: none;
+  letter-spacing: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 73px;
+}
+header .title button img{
+    margin-left: 35px;
+}
+header .title .iconka{
+    margin: auto;
+}
+header .title .iconka .iconka_ul{
+    list-style: none;
+    display: flex;
+    margin: auto;
+    margin-top: 65px;
+    width: 130px;
+    justify-content: space-between;
+    
+}
+   header .title .iconka .iconka_ul .iconak_li .iconka_a{
+ 
+   }
+
+.one {
+       background: url(./img/Rectangle\ 1.png) no-repeat;
+       background-size: cover;
+       padding-top: 40px;
+       padding-bottom: 30px;
+   }
+   .one .left{
+       margin-left: 68px;
+   }
+   .one .left h2{
+       font-size: 24px;
+       color: #16a085;
+       font-weight: 700;
+       width: 241px;
+       margin-top: 66px;
+       margin-bottom: 55px;
+   }
+   
+    .one .left p{
+       font-size: 10px;
+       color: #000;
+       line-height: 30px;
+       margin-bottom: 40px;
+   }
+   section button{
+       background: #16a085;
+       padding: 13px 4px 12px 20px;
+      border: none;
+      color: #fff;
+      font-size: 16px;
+   }
+    .one .left button a{
+       margin-left: 35px;
+   }
+    .one .right{
+      margin-left: 277px;
+   }
+   .to{
+       padding-top: 91px;
+   }
+   .to img{
+       margin-left: 68px;
+   }
+   .to h2{
+       font-weight: 700;
+       color: #16a085;
+       font-size: 24px;
+       margin-bottom: 40px;
+   }
+   .to p{
+       font-size: 10px;
+       color: black;
+       line-height: 30px;
+       margin-bottom: 38px;
+       width: 424px;
+   }
+  .three{
+      background: url(./img/Rectangle\ 1.png) no-repeat;
+      background-size: cover;
+      padding-bottom: 68px;
+      padding-top: 68px;
+  }
+  .three .three-left{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-top: 74px;
+      margin-left: 87px;
+  }
+  .three .three-left img{
+      margin-bottom: 22px;
+      
+  }
+  .three .three-left h3{
+   color: #16a085;
+   font-size: 18px;
+   font-weight: 700;
+   width: 108px;
+   margin-bottom: 31px;
+  }
+  .three .three-left p{
+      font-size: 10px;
+      color: black;
+ }
+ 
+     .for{
+         background: url(./img/for.jpg) no-repeat;
+         background-size: cover;
+         padding-bottom: 258px;
+     }
+     .for h3{
+         width: 217px;
+         margin: auto;
+         margin-top: 217px;
+         color: #fff;
+         font-weight: 400;
+         font-size: 24px;
+         margin-bottom: 58px;
+     }
+     .for .for-in{
+         margin: auto;
+       width: 360px;
+         display: flex;
+        
+        }
+        .five{
+            background: url(./img/Rectangle\ 1.png) no-repeat;
+            background-size: cover;
+            padding-top: 78px;
+            padding-bottom: 22px;
+        }
+        .five .five-text{
+           
+            text-align: center;
+            margin-left: 87px;
+        }
+        .five .five-text h3{
+            font-weight: 700;
+            font-size: 24px;
+            color: #414141;
+            margin-bottom: 24px;
+        }
+        .five .five-text p{
+            font-size: 10px;
+            line-height: 30px;
+      
+        }
+        .five .five-icon{
+            width: 366px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+        }
+        footer{
+            padding-top: 29px;
+           padding-bottom: 28px;
+           
+            
+        }
+        footer .footer-left{
+display: flex;
+width: 359px;
+          align-items: center;
+        margin-left: 87px;
+        margin-right: 287px;
+        }
+        footer .footer-left p{
+            font-size: 12px;
+            margin-left: 35px;
+            margin-bottom: 0;
+          
+           }
+           footer .footer-right {
+              margin-top: 24px;
+              
+           }
+        
